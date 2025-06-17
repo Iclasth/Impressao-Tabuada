@@ -1,0 +1,81 @@
+# Pastas de build
+bin/
+obj/
+
+# Arquivos do Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# Arquivos gerados automaticamente
+*.generated.cs
+
+# Saída do dotnet publish
+publish/
+
+# Pacotes NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+# Arquivos do ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Resultados de teste MSTest
+TestResults/
+
+# Logs de build
+*.log
+
+# Arquivos do Visual Studio Profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Outros arquivos
+*.cache
+*.pdb
+*.mdb
+*.pidb
+*.booproj
+*.svclog
+*.userprefs
+
+# Configuração do Azure DevOps
+.tf/
+
+# DotCover
+*.dotCover
+
+# StyleCop
+StyleCopReport.xml
+
+# Arquivos de cache do Windows
+Thumbs.db
+ehthumbs.db
+
+# Arquivo de configuração de pasta
+Desktop.ini
+
+# Lixo do Windows
+$RECYCLE.BIN/
+
+# Logs npm/yarn
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Mono
+mono_crash.*
