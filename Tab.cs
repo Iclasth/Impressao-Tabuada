@@ -10,13 +10,104 @@ namespace Tabuada
     {
         public static void ImprimirTabuadaDeDez()
         {
-            int x = 10;
-            Console.WriteLine("A seguir, a tabuada de 10:");
+            int numero = 10;
+            Console.WriteLine($"A seguir, a tabuada de {numero}:");
            for (int cont = 0; cont < 11; cont++)
             {
-                int result = x * cont;
-                Console.WriteLine($"{x} X {cont} = {result}");
+                int result = numero * cont;
+                Console.WriteLine($"{numero} X {cont} = {result}");
             }
         }
+        public static void ImprimirTabuadaDeNove()
+        {
+            int numero = 9;
+            Console.WriteLine($"A seguir, a tabuada de {numero}:");
+            for (int cont = 0; cont < 11; cont++)
+            {
+                int result = numero * cont;
+                Console.WriteLine($"{numero} X {cont} = {result}");
+            }
+        }
+        public static void ImprimirTabuadaDeOito()
+        {
+            int numero = 8;
+            Console.WriteLine($"A seguir, a tabuada de {numero}:");
+            for (int cont = 0; cont < 11; cont++)
+            {
+                int result = numero * cont;
+                Console.WriteLine($"{numero} X {cont} = {result}");
+            }
+        }
+        public static void ImprimirTabuadaDeSete()
+        {
+            int numero = 7;
+            Console.WriteLine($"A seguir, a tabuada de {numero}:");
+            for (int cont = 0; cont < 11; cont++)
+            {
+                int result = numero * cont;
+                Console.WriteLine($"{numero} X {cont} = {result}");
+            }
+        }
+        public static void ImprimirTabuadaDeSeis()
+        {
+            int numero = 6;
+            Console.WriteLine($"A seguir, a tabuada de {numero}:");
+            for (int cont = 0; cont < 11; cont++)
+            {
+                int result = numero * cont;
+                Console.WriteLine($"{numero} X {cont} = {result}");
+            }
+        }
+        public static void ImprimirTabuadaDeCinco()
+        {
+            int numero = 5;
+            Console.WriteLine($"A seguir, a tabuada de {numero}:");
+            for (int cont = 0; cont < 11; cont++)
+            {
+                int result = numero * cont;
+                Console.WriteLine($"{numero} X {cont} = {result}");
+            }
+        }
+        public static void ImprimirTabuadaDeQuatro()
+        {
+            int numero = 4;
+            Console.WriteLine($"A seguir, a tabuada de {numero}:");
+            for (int cont = 0; cont < 11; cont++)
+            {
+                int result = numero * cont;
+                Console.WriteLine($"{numero} X {cont} = {result}");
+            }
+        }
+        public static void ImprimirTabuadaDeTres()
+        {
+            int numero = 3;
+            Console.WriteLine($"A seguir, a tabuada de {numero}:");
+            for (int cont = 0; cont < 11; cont++)
+            {
+                int result = numero * cont;
+                Console.WriteLine($"{numero} X {cont} = {result}");
+            }
+        }
+        public static void ImprimirTabuadaDeDois()
+        {
+            int numero = 2;
+            Console.WriteLine($"A seguir, a tabuada de {numero}:");
+            for (int cont = 0; cont < 11; cont++)
+            {
+                int result = numero * cont;
+                Console.WriteLine($"{numero} X {cont} = {result}");
+            }
+        }
+        public static void ImprimirTabuadaDeUm()
+        {
+            int numero = 1;
+            Console.WriteLine($"A seguir, a tabuada de {numero}:");
+            for (int cont = 0; cont < 11; cont++)
+            {
+                int result = numero * cont;
+                Console.WriteLine($"{numero} X {cont} = {result}");
+            }
+        }
+
     }
 }

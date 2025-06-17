@@ -1,4 +1,5 @@
-﻿namespace Tabuada
+﻿using System;
+namespace Tabuada
 {
     public class Program
     {
@@ -6,6 +7,13 @@
         {
             Tab tabuada = new Tab();
             Tab.ImprimirTabuadaDeDez();
+
+
+            Console.WriteLine("Pressione qualquer tecla para sair...");
+            Console.ReadKey();
+
+
         }
     }
+   
 }
